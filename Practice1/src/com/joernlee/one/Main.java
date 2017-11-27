@@ -15,7 +15,7 @@ public class Main {
 		//获取输入的要求硬币数
 		String in = StringUtils.getPrintln();
 		System.out.println(in);
-		//通过迭代的方法获得使用魔法机器的顺序
+		//通获得使用魔法机器的顺序
 		StringBuffer record = new StringBuffer("");
 		String out = calMachine(Integer.parseInt(in), record);
 		//输出结果
